@@ -127,7 +127,8 @@ exe "hi! Title"         .s:fg_keyword     .s:bg_none        .s:fmt_none
 exe "hi! Visual"        .s:fg_none        .s:bg_selection   .s:fmt_none
 "   VisualNos"
 exe "hi! WarningMsg"    .s:fg_error       .s:bg_none        .s:fmt_none
-exe "hi! Whitespace"    .s:fg_comment     .s:bg_none        .s:fmt_none
+exe "hi! Whitespace"    .s:fg_guide       .s:bg_none        .s:fmt_none
+exe "hi! NonText"       .s:fg_guide       .s:bg_none        .s:fmt_none
 
 " TODO LongLineWarning to use variables instead of hardcoding
 hi LongLineWarning  guifg=NONE        guibg=#371F1C     gui=underline ctermfg=NONE        ctermbg=NONE        cterm=underline
